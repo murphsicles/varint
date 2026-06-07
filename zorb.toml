@@ -1,0 +1,8 @@
+[package]
+name = "@serde/varint"
+version = "0.1.0"
+description = "Variable-length integer encoding (unsigned LEB128) for Zeta — encode/decode"
+license = "MIT"
+repository = "https://github.com/murphsicles/varint"
+keywords = ["varint", "leb128", "encoding"]
+categories = ["encoding", "serialization"]

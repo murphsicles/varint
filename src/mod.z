@@ -1,0 +1,12 @@
+// Auto-converted from /tmp/df-unsigned-varint-0.8.0/unsigned-varint-0.8.0/src/lib.rs
+
+pub mod decode;
+pub mod encode;
+#[cfg(feature = "std")]
+pub mod io;
+#[cfg(feature = "futures")]
+pub mod aio;
+#[cfg(any(feature = "codec", feature = "asynchronous_codec"))]
+pub mod codec;
+#[cfg(feature = "nom")]
+pub mod nom;
